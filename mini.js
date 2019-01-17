@@ -1,3 +1,4 @@
 const mini = (a, b) =>{
-	return
-}
+	return Math.min(a, b);
+};
+console.log(mini (13, 67))
