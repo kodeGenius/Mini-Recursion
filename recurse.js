@@ -5,3 +5,4 @@ const isEven = (a) =>{
 	else if(a<0) return isEven(-a);
 	else return isEven(a);
 }
+console.log(isEven(1002))
