@@ -1,4 +1,4 @@
-// recourse function
+// recursive function 1
 const isEven = (a) =>{
 	a-=2;
 	if(a == 0) return true;
