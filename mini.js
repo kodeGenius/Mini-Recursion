@@ -5,4 +5,4 @@ const findGreaterNumber = (a, b) =>{
                 `${b} is greater than ${a}`
 	return val;
 };
-console.log(mini (13, 67))
+console.log(findGreaterNumber (13, 67));
