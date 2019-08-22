@@ -1,8 +1,8 @@
 //Mini recursion
-const mini = (a, b) =>{
-	if(a > b){
-		return `${a} is greater than ${b}`}else{ 
-		return `${b} is greater than ${a}`}
-	//return Math.min(a, b);
+const findGreaterNumber = (a, b) =>{
+	let val = (a > b) ?
+		`${a} is greater than ${b}` : 
+                `${b} is greater than ${a}`
+	return val;
 };
 console.log(mini (13, 67))
